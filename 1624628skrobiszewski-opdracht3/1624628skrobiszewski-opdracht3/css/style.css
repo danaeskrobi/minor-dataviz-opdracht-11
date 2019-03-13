@@ -1,0 +1,88 @@
+
+body{
+    background-color:black;
+    color:pink;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+#head{
+    background-color: pink;
+    width:250px;
+    height: 250px;
+    margin: 20px auto;
+    border-radius: 250px;
+    border: 15px solid white;
+}
+
+.eyes{
+    width: 130px;
+    height: 50px;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+
+.eyes>*{
+    border-radius: 20px;
+    background-color:white;
+    border: 1px solid black;
+}
+
+#eyeLeft{
+    float:left;
+    height: 50px;
+    width: 50px;
+}
+
+#head:hover #eyeLeft{
+    background:black;
+    height:10px;
+    margin-top: 15px;
+    -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.1s ease-in-out;
+-ms-transition: all 0.1s ease-in-out;
+-o-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;
+}
+
+#head:hover #eyeLeft>*{
+    display:none;
+    
+}
+
+#eyeRight{
+    float:right;
+    height: 50px;
+    width: 50px;
+}
+
+.pupil{
+    width:20px;
+    height: 20px;
+    background:black;
+    border-radius:20px;
+    margin: 15px auto;
+}
+
+#nose{
+    background: red;
+    width:20px;
+    height: 20px;
+    margin:0 auto;
+    border-radius: 20px;
+}
+
+#mouth{
+    background:black;
+    width: 100px;
+    height: 30px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    transform: rotate(10deg);
+}
+

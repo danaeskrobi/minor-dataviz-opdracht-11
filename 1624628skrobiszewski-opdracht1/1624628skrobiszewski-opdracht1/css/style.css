@@ -1,0 +1,50 @@
+
+body{
+    background-color:white;
+    color:black;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* styling line graph */
+#svgContainer{
+    width: 70%;
+    height: 70%;
+    margin:0 auto;
+}
+
+.line { 
+    stroke: black;
+    stroke-width: 3;
+    fill: none;
+}
+
+.overlay{
+    fill:none;
+    pointer-events:all;
+}
+
+.dot{
+    fill: purple;
+    stroke: white;
+    opacity: 0.5;
+}
+
+.focus circle{
+    fill:none;
+    stroke:steelblue;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+}
